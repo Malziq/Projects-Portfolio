@@ -4,14 +4,14 @@ This project simulates a basic social network using graph data structures and OO
 
 The main purpose in my including project on the porfolio is to show the sheer scale of it, in total there is over of 1000 lines in C++ which is no easy task. As well as to show my proficiency in using graph algorithms and data structures to build something cool.
 
-## 📌 Features
+## Features
 
 - Add and remove users
 - Create and manage friendships between users
 - Display mutual friends
 - Explore user connections through a graph-based structure
 
-## 🧠 Concepts Used
+## Concepts Used
 
 - Graphs and adjacency lists
 - Depth-First Search (DFS)
