@@ -9,7 +9,7 @@ One of the main goals of this project was to explore the use of multithreading v
 ## 📌 Features
 
 - GUI built with `tkinter`
-- Fast weather and geocoding lookups using `multiprocessing` and `threading`
+- Fast API requests for weather and geocoding lookups using `multiprocessing` and `threading`
 - Supports multiple city selection
 - Saves results to a local `.txt` file
 - Performance comparison: serial vs multithreading vs multiprocessing
