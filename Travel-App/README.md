@@ -42,8 +42,8 @@ This project consists of a web scraper that collects data from the "[Best Places
 1. Clone the repository:
 
 ```bash
-git clone [your-repo-url]
-cd [your-project-folder]
+git clone https://github.com/Malziq/Projects-Portfolio/edit/main/Travel-App
+cd Travel-App
 ```
 
 2. Install dependencies:
@@ -63,7 +63,7 @@ pip install requests beautifulsoup4
 Run the main Python script to scrape data and populate the database:
 
 ```bash
-python your_script_name.py
+python backend.py
 ```
 
 The script will create:
@@ -75,7 +75,7 @@ The script will create:
 After the database has been populated, run the GUI application:
 
 ```bash
-python your_script_name.py
+python frontend.py
 ```
 
 A Tkinter window will appear, allowing you to explore the destinations interactively.
@@ -95,7 +95,8 @@ A Tkinter window will appear, allowing you to explore the destinations interacti
 
 ```
 project/
-├── your_script_name.py
+├── frontend.py
+├── backend.py
 ├── data.json
 ├── travel.db
 └── README.md
